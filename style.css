@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+header {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 20px;
+    margin-right: 0.5rem;
+}
+
+section {
+    align-items: center;
+    justify-content: center;
+}
+
+.linha {
+
+    transition: 0.2s background;
+
+}
+
+.center {
+    display: flex;
+    height: 100vh;
+}
+
+.center-meio img {
+    display: flex;
+}
+
+.center-meio p {
+    max-width: 700px;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(82, 81, 81);
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+.paragrafo p {
+    padding: 2rem 0;
+
+}
+
+.linha-item:nth-of-type(1):hover {
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.linha-item:nth-of-type(2):hover {
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 50px;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    transform: translate(10%, -135%);
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+}
+
+
+
+.linha-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+
+
+.border {
+    border: 1px solid #ccc;
+    opacity: .5;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.texto-linha p {
+    font-size: 15px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: rgb(170, 170, 170);
+}
+
+.popup-conteudo {
+    padding: 0;
+}
+
+.linha strong {
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(170, 170, 170);
+}
+
+
+
+.linha img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.linha {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    display: block;
+}
